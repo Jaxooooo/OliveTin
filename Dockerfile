@@ -35,7 +35,7 @@ EXPOSE 1337/tcp
 
 COPY config.yaml /config
 COPY var/entities/* /config/entities/
-VOLUME /config
+VOLUME /mnt/Applications/OliveTin/config
 
 COPY OliveTin /usr/bin/OliveTin
 COPY webui /var/www/olivetin/
